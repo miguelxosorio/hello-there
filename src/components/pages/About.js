@@ -12,7 +12,7 @@ function About () {
             {/* name div */}
             <div>   
                 <h3>Miguel Osorio</h3>
-                <h5>Full Stack Web Developer</h5>
+                <h6>Full Stack Web Developer</h6>
             </div>
             {/* img div */}
             <div>
@@ -20,7 +20,8 @@ function About () {
             </div>
             {/* Bio div*/}
             <div>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
                     velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi
                     ac dui fermentum, sed luctus urna tincidunt. Etiam ut feugiat ex. Cras
                     non risus mi. Curabitur mattis rutrum ipsum, ut aliquet urna imperdiet

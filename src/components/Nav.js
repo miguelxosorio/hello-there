@@ -1,11 +1,12 @@
 import React from "react";
 
 function Nav({ currentPage, pageChange }) {
-    
+    console.log(currentPage);
     return (
+    <div>
         <ul className="nav nav-tabs">
             <li className="nav-item">
-                {/* ternary operators for if condition */}
+                {/* ternary operators for if condition - */}
                 <a href="#about" onClick={() => pageChange('About')} className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}>About</a>
             </li>
             <li className="nav-item">
@@ -18,6 +19,7 @@ function Nav({ currentPage, pageChange }) {
                 <a href="#resume" onClick={() => pageChange('Resume')} className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}>Resume</a>
             </li>
         </ul>
+    </div>
     )
 }
 

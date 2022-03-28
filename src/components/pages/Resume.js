@@ -4,6 +4,9 @@ function Resume() {
     return(
         <div>
             <div>
+                <h1>Resume</h1>
+            </div>
+            <div>
                 <a href={require('../../assets/resume/resume.pdf')}><button>Resume</button></a>
             </div>
             <div>
