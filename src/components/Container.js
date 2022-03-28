@@ -8,13 +8,19 @@ function Container() {
 
     // page render function
     const render = () => {
+        // render the About page
         if(currentPage === 'About') {
             return <About />
+        }
+        // Contact page
+        if(currentPage === 'Contact') {
+            return <Contact />
         }
     }
 
   return (
     <div>
+        <Nav />
         {render()}
     </div>
   );
