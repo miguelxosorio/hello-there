@@ -3,12 +3,13 @@ import Nav from './Nav';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import Portfolio from './pages/Portfolio';
+import Resume from './pages/Resume';
 
 function Container() {
     // use state setting default state on the About page
     const [ currentPage, setCurrentPage ] = useState('About');
 
-    // page render function
+    // page render function - conditional rendering
     const render = () => {
         // render the About page
         if(currentPage === 'About') {
@@ -21,6 +22,10 @@ function Container() {
         // Porfolio page
         if(currentPage === 'Portfolio') {
             return <Portfolio />
+        }
+        // Resume page
+        if(currentPage === 'Resume') {
+            return <Resume />
         }
     }
 
