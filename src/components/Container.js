@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Nav from './Nav';
 import About from './pages/About';
 import Contact from './pages/Contact';
+import Portfolio from './pages/Portfolio';
 
 function Container() {
     // use state setting default state on the About page
@@ -16,6 +17,10 @@ function Container() {
         // Contact page
         if(currentPage === 'Contact') {
             return <Contact />
+        }
+        // Porfolio page
+        if(currentPage === 'Portfolio') {
+            return <Portfolio />
         }
     }
 

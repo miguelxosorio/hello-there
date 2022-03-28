@@ -9,6 +9,9 @@ function Nav({ currentPage, pageChange }) {
             <li>
                 <a href="#contact" onClick={() => pageChange('Contact')} className={currentPage}>Contact</a>
             </li>
+            <li>
+                <a href="#portfolio" onClick={() => pageChange('Portfolio')} className={currentPage}>Portfolio</a>
+            </li>
         </ul>
     )
 }
