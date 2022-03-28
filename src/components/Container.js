@@ -4,6 +4,7 @@ import About from './pages/About';
 import Contact from './pages/Contact';
 
 function Container() {
+    // use state setting default state on the About page
     const [ currentPage, setCurrentPage ] = useState('About');
 
     // page render function
@@ -18,9 +19,12 @@ function Container() {
         }
     }
 
+    // change page function passing in page
+    const pageChange = (page) => setCurrentPage(page)
+
   return (
     <div>
-        <Nav />
+        <Nav currentPage={currentPage} pageChange={pageChange}/>
         {render()}
     </div>
   );

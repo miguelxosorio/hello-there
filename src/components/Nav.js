@@ -1,10 +1,15 @@
 import React from "react";
 
-function Nav() {
+function Nav({ currentPage, pageChange }) {
     return (
-        <div>
-
-        </div>
+        <ul>
+            <li>
+                <a href="#about" onClick={() => pageChange('About')} className={currentPage}>About</a>
+            </li>
+            <li>
+                <a href="#contact" onClick={() => pageChange('Contact')} className={currentPage}>Contact</a>
+            </li>
+        </ul>
     )
 }
 
