@@ -1,9 +1,17 @@
 import React from "react";
 import About from "./pages/About";
+import Contact from "./pages/Contact"
 
 function Container() {
     return(
-        <About />
+        <div>
+            <section>
+                <About />
+            </section>
+            <div>
+                <Contact />
+            </div>
+        </div>
     )
 }
 

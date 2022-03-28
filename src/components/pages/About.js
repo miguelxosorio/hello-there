@@ -7,7 +7,7 @@ function About () {
         <div>
             <h1>About Me</h1>
             <br />
-            <img src={require('../../assets/display-photo/dp.jpg')} alt="display img" />
+            <img src={require('../../assets/display-photo/dp.jpg')} width="200" height="275" alt="display img" />
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
                 velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi
                 ac dui fermentum, sed luctus urna tincidunt. Etiam ut feugiat ex. Cras
