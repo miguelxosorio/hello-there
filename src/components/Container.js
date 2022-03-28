@@ -1,18 +1,23 @@
-import React from "react";
-import About from "./pages/About";
-import Contact from "./pages/Contact"
+import React, { useState } from 'react';
+import Nav from './Nav';
+import About from './pages/About';
+import Contact from './pages/Contact';
 
 function Container() {
-    return(
-        <div>
-            <section>
-                <About />
-            </section>
-            <div>
-                <Contact />
-            </div>
-        </div>
-    )
+    const [ currentPage, setCurrentPage ] = useState('About');
+
+    // page render function
+    const render = () => {
+        if(currentPage === 'About') {
+            return <About />
+        }
+    }
+
+  return (
+    <div>
+        {render()}
+    </div>
+  );
 }
 
 export default Container;
