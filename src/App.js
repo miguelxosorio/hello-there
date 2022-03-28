@@ -1,12 +1,16 @@
 import React from 'react';
-import Container from './components/Container'; 
+import Container from './components/Container';
 
 function App() {
   return (
     // Put Container here
-    <main>
-      <Container />
-    </main>
+    <div>
+      <main>
+        <div>
+          <Container />
+        </div>
+      </main>
+    </div>
   );
 }
 
