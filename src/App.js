@@ -1,15 +1,10 @@
 import React from 'react';
-import Container from './components/Container';
 
 function App() {
   return (
     // Put Container here
     <div>
-      <main>
-        <div>
-          <Container />
-        </div>
-      </main>
+      <h1> HELLO WORLD </h1>
     </div>
   );
 }
