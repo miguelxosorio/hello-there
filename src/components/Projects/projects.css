@@ -11,5 +11,8 @@
 }
 
 .projects {
-    width: 250px;
+    width: 30%;
+    height: 30vh;
+    margin: 20px 10px;
+    border: 2px solid;
 }
