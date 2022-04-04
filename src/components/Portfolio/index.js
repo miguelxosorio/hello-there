@@ -1,8 +1,9 @@
-import Projects from "../Projects/index";
-import "./portfolio.css"
 import { projects } from '../../projects';
+import Projects from "../Projects";
+import "./portfolio.css"
 
 function Portfolio () {
+    
     return(
         <div className="portfolio">
             <div className="p-texts">
@@ -12,8 +13,9 @@ function Portfolio () {
                 </p>
             </div>
             <div className="p-list">
+            {/* map() for each project, call Projects component */}
                 {projects.map((project) => (
-                    <Projects key={project.id} img={project.img} link={project.link} />
+                    <Projects key={project.id} img={project.img} link={project.link} ghlink={project.ghlink}/>
                 ))}
             </div>
         </div>

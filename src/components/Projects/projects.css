@@ -34,3 +34,7 @@
     color: var(--gold);
     transition-duration: 0.4s;
 }
+
+.project-img {
+    width: 100%;
+}
