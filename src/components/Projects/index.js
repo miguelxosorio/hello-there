@@ -1,6 +1,5 @@
 import React from 'react';
 import './projects.css'
-import wdb from '../../assets/gif/wdb.gif'
 
 // passing in props img, link, ghlink
 function Projects({ img, link, ghlink }) {

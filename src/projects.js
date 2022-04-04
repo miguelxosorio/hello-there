@@ -1,5 +1,9 @@
-import wdb from './assets/gif/wdb.gif'
-import mm from './assets/gif/MM.gif'
+import wdb from './assets/gif/wdb.gif';
+import mm from './assets/gif/MM.gif';
+import ntkr from './assets/gif/notetaker.gif';
+import tl from './assets/gif/TL.gif';
+import wds from './assets/gif/wds.gif';
+import rdme from './assets/gif/readme-gif.gif';
 
 export const projects = [
     {
@@ -16,25 +20,25 @@ export const projects = [
     },
     {
         id: 3, 
-        img: "./assets/gif/notetaker.gif",
+        img: ntkr,
         link: "https://notetaker-app-dev.herokuapp.com/",
         ghlink:"https://github.com/miguelxosorio/note-taker"
     },
     {
         id: 4, 
-        img: "./assets/gif/TL.gif",
+        img: tl,
         link: "https://travel--lovers.herokuapp.com/",
         ghlink:"https://github.com/miguelxosorio/Travel-Lovers"
     },
     {
         id: 5, 
-        img: "./assets/gif/wds.gif",
+        img: wds,
         link: "https://miguelxosorio.github.io/work-day-scheduler/",
         ghlink:"https://github.com/miguelxosorio/work-day-scheduler"
     },
     {
         id: 6, 
-        img: "./assets/gif/readme-gif.gif",
+        img: rdme,
         link: "https://watch.screencastify.com/v/rqc6oLFsDumsh35O0kwp",
         ghlink:"https://github.com/miguelxosorio/Professional-README-generator"
     },
