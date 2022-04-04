@@ -10,7 +10,12 @@ function More() {
                     <img src={dp} alt="" className="more-image"></img>
                 </div>
             </div>
-            <div className="more-right"></div>
+            <div className="more-right">
+                <h1 className="more-title">About Me</h1>
+                <p className="more-subtitle">
+                    Hello, Let's make you a website. How can I help?
+                </p>
+            </div>
         </div>
     )
 }
