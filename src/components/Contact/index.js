@@ -4,7 +4,9 @@ import phone from '../../assets/icons/phone.png';
 import email from '../../assets/icons/email.png';
 import location from '../../assets/icons/location.png';
 // useRef returns a mutable ref object whose .current property is initialized to the passed argument (initialValue)
+// for email template
 import { useRef } from "react";
+import emailjs from 'emailjs-com';
 
 function Contact() {
 
