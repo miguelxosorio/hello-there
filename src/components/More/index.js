@@ -16,8 +16,14 @@ function More() {
                     I heard you needed a website, How can I help?
                 </p>
                 <p className="more-subtitle-content">
-                    I am a Nurse turned into a Full Stack Web Developer.
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                    I was a nurse for almost 10 years until I decided to devote my attention to web development, and it is a lot of fun!
+                    Not until I was learning how to code did I realize how much logic flows in each of the functionalities in our applications.
+                    <br></br>
+                    <br></br>
+                    I hope I get to create something with you.
+                    <br></br>
+                    <br></br>
+                    besides that, I also <a href="https://miguelosorio.myportfolio.com/">photograph</a>.
                 </p>
             </div>
         </div>
