@@ -3,7 +3,7 @@ import './projects.css'
 function Projects() {
     return(
         <div>
-            <h1>Cards</h1>
+            <h6>Cards</h6>
         </div>
     )
 }
