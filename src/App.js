@@ -1,11 +1,14 @@
 import React from 'react';
+import About from './components/About';
 
 function App() {
   return (
     // Put Container here
-    <div>
-      <h1> HELLO WORLD </h1>
-    </div>
+    <main>
+      <div>
+        <About />
+      </div>
+    </main>
   );
 }
 
