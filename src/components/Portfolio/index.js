@@ -1,5 +1,6 @@
 import Projects from "../Projects/index";
 import "./portfolio.css"
+import { projects } from '../../projects';
 
 function Portfolio () {
     return(
@@ -11,12 +12,9 @@ function Portfolio () {
                 </p>
             </div>
             <div className="p-list">
-                <Projects />
-                <Projects />
-                <Projects />
-                <Projects />
-                <Projects />
-                <Projects />
+                {projects.map((project) => (
+                    <Projects key={project.id} img={project.img} link={project.link} />
+                ))}
             </div>
         </div>
     )
