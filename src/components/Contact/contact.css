@@ -37,4 +37,16 @@
 
 .contact-title {
     font-size: 60px;
+    width: 80%;
+}
+
+.contact-info-item {
+    display: flex;
+    align-items: center;
+}
+
+.contact-icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
 }
