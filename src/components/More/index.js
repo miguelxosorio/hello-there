@@ -5,7 +5,7 @@ function More() {
     return (
         <div className="more">
             <div className="more-left">
-                <div className="more-card bg"></div>
+                <div className="more-card-bg"></div>
                 <div className="more-card">
                     <img src={dp} alt="" className="more-image"></img>
                 </div>

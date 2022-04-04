@@ -29,7 +29,7 @@
     flex: 1;
 }
 
-.more-card.bg {
+.more-card-bg {
     position: absolute;
     top: 50px;
     left: 50px;
@@ -57,4 +57,27 @@
 
 .more-subtitle-content {
     font-size: 10px;
+}
+
+@media screen and (max-width: 480px) {
+    .more {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .more-left {
+        width: 100%;
+    }
+
+    .more-right {
+        padding: 20px;
+    }
+
+    .more-card-bg {
+        display: none;
+    }
+
+    .more-card {
+        height: 30vh;
+    }
 }

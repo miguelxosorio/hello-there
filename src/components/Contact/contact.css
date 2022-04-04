@@ -98,5 +98,19 @@ button {
 @media screen and (max-width: 480px){
     .contact-wrapper {
         flex-direction: column;
+        padding: 0px 50px;
+    }
+
+    .contact-title {
+        font-size: 25px;
+    }
+
+    .contact-info-item {
+        margin: 20px 0px;
+        width: 100%;
+    }
+
+    .contact-description {
+        display: none;
     }
 }
