@@ -19,6 +19,18 @@
     overflow: hidden;
 }
 
+.pb-container {
+    height: 20px;
+    background-color: var(--daisy);
+    display: flex;
+    align-items: center;
+}
+
+.btn:hover {
+    background-color: var(--stem);
+    color: white;
+}
 .btn {
     color: var(--gold);
+    transition-duration: 0.4s;
 }

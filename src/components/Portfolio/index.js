@@ -16,6 +16,7 @@ function Portfolio () {
                 <Projects />
                 <Projects />
                 <Projects />
+                <Projects />
             </div>
         </div>
     )
