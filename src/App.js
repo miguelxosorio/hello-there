@@ -1,5 +1,6 @@
 import React from 'react';
 import About from './components/About';
+import More from './components/More';
 
 function App() {
   return (
@@ -7,6 +8,7 @@ function App() {
     <main>
       <div>
         <About />
+        <More />
       </div>
     </main>
   );
