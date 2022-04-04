@@ -49,3 +49,12 @@
     height: 100%;
     object-fit: cover;
 }
+
+.more-subtitle {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.more-subtitle-content {
+    font-size: 10px;
+}
