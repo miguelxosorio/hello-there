@@ -1,6 +1,5 @@
 import React from 'react';
 import './about.css';
-import dp from "../../assets/display-photo/dp.jpg"
 
 function About() {
   return (
@@ -24,10 +23,10 @@ function About() {
             </p>
         </div>
       </div>
-      <div className="about-right">
+      {/* <div className="about-right">
       <div className="about-bg"></div>
           <img src={dp} alt="man with a hat" className="about-img"></img>
-      </div>
+      </div> */}
     </div>
   );
 }
