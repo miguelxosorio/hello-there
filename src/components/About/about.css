@@ -18,6 +18,9 @@
 
 .about-left {
     flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .about-right {
@@ -26,6 +29,11 @@
 
 .about-left-wrapper {
     padding: 50px;
+    height: 50%;
+    background-color: var(--daisy);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .about-greeting {

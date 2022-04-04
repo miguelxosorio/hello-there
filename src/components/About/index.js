@@ -18,6 +18,9 @@ function About() {
                     <div className="about-title-item">Photographer</div>
                 </div>
             </div>
+            <div className="about-description">
+                I design and make websites! Let's work together.
+            </div>
         </div>
       </div>
       <div className="about-right">right</div>
