@@ -3,7 +3,9 @@ import './projects.css'
 function Projects() {
     return(
         <div className="projects">
-            cards
+            <div className="projects-button-container">
+                <a href="/"><button className="btn">Github</button></a>
+            </div>
         </div>
     )
 }
