@@ -1,3 +1,4 @@
+import React from 'react';
 import './projects.css'
 import wdb from '../../assets/gif/wdb.gif'
 
