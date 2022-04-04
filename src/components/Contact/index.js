@@ -28,13 +28,13 @@ function Contact() {
         </div>
         <div className="contact-right">
           <p className="contact-description">
-            <b>Let's get in touch.</b> Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum 
+            <b>Let's get in touch.</b>
           </p>
           <form>
             <input type="text" placeholder="Name" name="user_name" />
             <input type="text" placeholder="Subject" name="user_subject" />
             <input type="text" placeholder="Email" name="user_email" />
-            <textarea rows="7" placeholder="Message" name="message"></textarea>
+            <textarea rows="5" placeholder="Message" name="message" />
             <button>Submit</button>
           </form>
         </div>
