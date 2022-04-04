@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import '../Contact/contact.css';
 import phone from '../../assets/icons/phone.png';
 import email from '../../assets/icons/email.png';
@@ -15,6 +15,8 @@ function Contact() {
 
   const formRef = useRef();
 
+  const [sent, setSent ] = useState(false)
+
   const handleSubmit = (event) => {
     // so the page doesn't refresh
     event.preventDefault();
@@ -23,6 +25,8 @@ function Contact() {
     .then(
       (result) => {
         console.log(result.text);
+        // successful email
+        setSent(true)
       },
       (error) => {
         console.log(error.text)
@@ -62,6 +66,7 @@ function Contact() {
             <input type="text" placeholder="Email" name="user_email" />
             <textarea rows="5" placeholder="Message" name="message" />
             <button>Submit</button>
+            {sent && "Thank you!"}
           </form>
         </div>
       </div>
