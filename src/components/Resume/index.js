@@ -2,14 +2,14 @@
 import React from 'react';
 import './resume.css';
 import resume from '../../assets/resume/resume.pdf';
+import rp from '../../assets/resume/resume.png';
 
 function Resume() {
   return (
     <div className="resume">
       <div className="resume-left">
       <div className="resume-card">
-        <img
-        />
+        <img src={rp} alt="resume" className="resume-image"/>
         <a target="_blank" href={resume} rel="noreferrer" title="resume">
           <button>Resume</button>
         </a>
