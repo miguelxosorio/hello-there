@@ -12,7 +12,7 @@ function Projects({ img, link, ghlink }) {
             </div>
             <a href={link} target="_blank" rel="noreferrer">
                 {/* sample img src for now */}
-                <img src={wdb} alt="project" className="project-img"></img>
+                <img src={img} alt="project" className="project-img" />
             </a>
         </div>
     )

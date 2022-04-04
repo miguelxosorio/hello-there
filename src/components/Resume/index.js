@@ -8,14 +8,13 @@ function Resume() {
   return (
     <div className="resume">
       <div className="resume-left">
-      <div className="resume-card">
-        <img src={rp} alt="resume" className="resume-image"/>
-        <a target="_blank" href={resume} rel="noreferrer" title="resume">
-          <button>Resume</button>
-        </a>
+        <div className="resume-card">
+          <img src={rp} alt="resume" className="resume-image" />
+          <a target="_blank" href={resume} rel="noreferrer" title="resume">
+            <button>Resume</button>
+          </a>
+        </div>
       </div>
-      </div>
-      
       <div className="resume-right">
         <h1 className="resume-title">Proficiencies</h1>
         <p>HTML</p>
