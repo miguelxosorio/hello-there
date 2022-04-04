@@ -104,3 +104,18 @@
     top: 0;
     right: 0;
 } */
+
+/* 480px mobile device breakpoint */
+@media screen and (max-width: 480px){
+    .about {
+        flex-direction: column;
+    }
+
+    .about-left-wrapper {
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        padding: 5px;
+        height: 50%;
+    }
+}
