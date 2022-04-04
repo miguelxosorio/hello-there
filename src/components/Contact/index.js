@@ -7,14 +7,27 @@ import location from '../../assets/icons/location.png';
 // for email template
 import { useRef } from "react";
 import emailjs from 'emailjs-com';
+const USER_ID = process.env.REACT_APP_USER_ID
+const SVC_ID = process.env.REACT_APP_SERVICE_ID
+const TMP_ID = process.env.REACT_APP_TEMPLATE_ID
 
 function Contact() {
 
-  const formRef = useRef()
+  const formRef = useRef();
 
   const handleSubmit = (event) => {
     // so the page doesn't refresh
     event.preventDefault();
+
+    emailjs.sendForm(SVC_ID, TMP_ID, formRef.current, USER_ID)
+    .then(
+      (result) => {
+        console.log(result.text);
+      },
+      (error) => {
+        console.log(error.text)
+      }
+    )
 
   }
 
