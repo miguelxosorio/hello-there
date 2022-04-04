@@ -2,9 +2,20 @@ import React from 'react';
 import '../Contact/contact.css';
 import phone from '../../assets/icons/phone.png';
 import email from '../../assets/icons/email.png';
-import location from '../../assets/icons/location.png'
+import location from '../../assets/icons/location.png';
+// useRef returns a mutable ref object whose .current property is initialized to the passed argument (initialValue)
+import { useRef } from "react";
 
 function Contact() {
+
+  const formRef = useRef()
+
+  const handleSubmit = (event) => {
+    // so the page doesn't refresh
+    event.preventDefault();
+
+  }
+
   return (
     <div className="contact">
       <div className="contact-bg"></div>
@@ -30,7 +41,7 @@ function Contact() {
           <p className="contact-description">
             <b>Let's get in touch.</b>
           </p>
-          <form>
+          <form ref={formRef} onSubmit={handleSubmit}>
             <input type="text" placeholder="Name" name="user_name" />
             <input type="text" placeholder="Subject" name="user_subject" />
             <input type="text" placeholder="Email" name="user_email" />
