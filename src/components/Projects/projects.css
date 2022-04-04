@@ -37,4 +37,9 @@
 
 .project-img {
     width: 100%;
+    transition: all 10s ease;
+}
+
+.projects:hover .project-img {
+    transform: translateY(-100%);
 }
