@@ -24,6 +24,8 @@
     background-color: var(--daisy);
     display: flex;
     align-items: center;
+    position: sticky;
+    z-index: 2;
 }
 
 .btn:hover {
@@ -37,9 +39,9 @@
 
 .project-img {
     width: 100%;
-    transition: all 10s ease;
+    transition: all 6s ease;
 }
 
 .projects:hover .project-img {
-    transform: translateY(-100%);
+    transform: translateY(-200%);
 }
