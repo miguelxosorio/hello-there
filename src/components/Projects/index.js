@@ -2,8 +2,8 @@ import './projects.css'
 
 function Projects() {
     return(
-        <div>
-            <h6>Cards</h6>
+        <div className="projects">
+            cards
         </div>
     )
 }
