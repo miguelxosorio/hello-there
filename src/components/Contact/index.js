@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import '../Contact/contact.css';
+import './contact.css';
 import phone from '../../assets/icons/phone.png';
 import email from '../../assets/icons/email.png';
 import location from '../../assets/icons/location.png';
@@ -20,7 +20,7 @@ function Contact() {
   const handleSubmit = (event) => {
     // so the page doesn't refresh
     event.preventDefault();
-
+    // credentials
     emailjs.sendForm(SVC_ID, TMP_ID, formRef.current, USER_ID)
     .then(
       (result) => {

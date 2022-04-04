@@ -3,6 +3,7 @@ import About from './components/About';
 import More from './components/More';
 import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
+import Resume from './components/Resume';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <More />
         <Portfolio />
         <Contact />
+        <Resume />
       </div>
     </main>
   );
