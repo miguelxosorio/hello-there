@@ -14,19 +14,26 @@ function Contact() {
           <div className="contact-info">
             <div className="contact-info-item">
               <img src={phone} alt="phone" className="contact-icon" />
-              <a href="tel:+17736720120">+1 773-672-0120</a>
+              <a className="contact-anc" href="tel:+17736720120">+1 773-672-0120</a>
             </div>
             <div className="contact-info-item">
               <img src={email} alt="email" className="contact-icon" />
-              <a href="mailto:mxosorio.dev@gmail.com">mxosorio.dev@gmail.com</a>
+              <a className="contact-anc" href="mailto:mxosorio.dev@gmail.com">mxosorio.dev@gmail.com</a>
             </div>
             <div className="contact-info-item">
               <img src={location} alt="location pin" className="contact-icon" />
-              <a href="https://goo.gl/maps/yztCKcaZuYN1eYSPA">Austin, Tx</a>
+              <a className="contact-anc" href="https://goo.gl/maps/yztCKcaZuYN1eYSPA">Austin, Tx</a>
             </div>
           </div>
         </div>
-        <div className="contact-right"></div>
+        <div className="contact-right">
+          <p className="contact-description">
+            <b>Let's get in touch.</b> Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum 
+          </p>
+          <form>
+            <input />
+          </form>
+        </div>
       </div>
     </div>
   );
