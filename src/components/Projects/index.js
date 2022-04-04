@@ -1,4 +1,5 @@
 import './projects.css'
+import wdb from '../../assets/gif/wdb.gif';
 
 function Projects() {
     return(
@@ -6,6 +7,9 @@ function Projects() {
             <div className="pb-container">
                 <a href="/"><button className="btn">Github</button></a>
             </div>
+            <a href="https://miguelxosorio.github.io/weather-dashboard/">
+                <img src={wdb} alt="weather dashboard" className="project-img"></img>
+            </a>
         </div>
     )
 }
