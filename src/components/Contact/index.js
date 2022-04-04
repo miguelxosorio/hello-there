@@ -10,6 +10,9 @@ function Contact() {
           <h1 className="contact-title">What's the project?</h1>
           <div className="contact-info">
             <div className="contact-info-item">
+            <span class="material-icons">
+                phone
+            </span>
                 +1 773-672-0120
             </div>
           </div>
