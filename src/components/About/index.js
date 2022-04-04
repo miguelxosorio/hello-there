@@ -1,5 +1,6 @@
 import React from 'react';
 import './about.css';
+import dp from "../../assets/display-photo/dp.jpg"
 
 function About() {
   return (
@@ -23,7 +24,9 @@ function About() {
             </div>
         </div>
       </div>
-      <div className="about-right">right</div>
+      <div className="about-right">
+          <img src={dp} alt="display photo" className="about-img"></img>
+      </div>
     </div>
   );
 }
