@@ -19,13 +19,14 @@ function About() {
                     <div className="about-title-item">Photographer</div>
                 </div>
             </div>
-            <div className="about-description">
+            <p className="about-description"> 
                 I design and make websites! Let's work together.
-            </div>
+            </p>
         </div>
       </div>
       <div className="about-right">
-          <img src={dp} alt="display photo" className="about-img"></img>
+      <div className="about-bg"></div>
+          <img src={dp} alt="man with a hat" className="about-img"></img>
       </div>
     </div>
   );
