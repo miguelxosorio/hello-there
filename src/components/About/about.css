@@ -42,12 +42,37 @@
     overflow: hidden;
 }
 
+.about-title-wrapper {
+    height: 100%;
+    /* first property is animation identifier or name,  */
+    animation: move 10s ease-in-out infinite alternate;
+}
+
+@keyframes move {
+    /* 5 items after web dev */
+    20% {
+        transform: translateY(-50px)
+    }
+    40% {
+        transform: translateY(-100px)
+    }
+    60% {
+        transform: translateY(-150px)
+    }
+    80% {
+        transform: translateY(-200px)
+    }
+    100% {
+        transform: translateY(-250px)
+    }
+}
+
 .about-title-item {
     height: 50px;
     font-size: 20px;
     font-weight: bold;
     color: var(--charcoal);
-    background-color: var(--subtle-gold);
+    /* background-color: var(--subtle-gold); */
     display: flex;
     align-items: center;
 }
