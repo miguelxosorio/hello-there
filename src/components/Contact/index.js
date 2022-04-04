@@ -2,6 +2,7 @@ import React from 'react';
 import '../Contact/contact.css';
 import phone from '../../assets/icons/phone.png';
 import email from '../../assets/icons/email.png';
+import location from '../../assets/icons/location.png'
 
 function Contact() {
   return (
@@ -18,6 +19,10 @@ function Contact() {
             <div className="contact-info-item">
               <img src={email} alt="email" className="contact-icon" />
               <a href="mailto:mxosorio.dev@gmail.com">mxosorio.dev@gmail.com</a>
+            </div>
+            <div className="contact-info-item">
+              <img src={location} alt="location pin" className="contact-icon" />
+              <a href="https://goo.gl/maps/yztCKcaZuYN1eYSPA">Austin, Tx</a>
             </div>
           </div>
         </div>
