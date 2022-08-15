@@ -21,7 +21,7 @@ function Contact() {
     // so the page doesn't refresh
     event.preventDefault();
     // credentials
-    emailjs.sendForm(SVC_ID, TMP_ID, formRef.current, USER_ID)
+    emailjs.sendForm(SVC_ID, TMP_ID, formRef.current, USER_ID) 
     .then(
       (result) => {
         console.log(result.text);
